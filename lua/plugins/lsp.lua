@@ -34,7 +34,7 @@ function user.lspconfig(lsp)
   lsp.on_attach(user.lsp_attach)
 
   lsp.set_server_config({
-    single_file_support = false,
+    -- single_file_support = false,
     -- disable LSP semantic highlighting
     on_init = function(client)
       client.server_capabilities.semanticTokensProvider = nil
