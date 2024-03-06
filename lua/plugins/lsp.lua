@@ -42,13 +42,11 @@ function user.lspconfig(lsp)
   })
 
   -- NOTE: Put language server specific settings here 
-  --lsp.store_config('tsserver', {
-  --    settings = {
-  --        completions = {
-  --            completeFunctionCalls = true
-  --        }
-  --    }
-  --})
+  lsp.store_config('clangd', {
+     settings = {
+       args = {'-header-insertion=never'}
+     }
+  })
 end
 
 function user.lsp_attach(_, bufnr)
