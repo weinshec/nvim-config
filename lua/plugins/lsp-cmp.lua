@@ -102,7 +102,7 @@ function M.config()
           if cmp.visible() then
               cmp.confirm({ select = true })
           else
-              cmp.complete()
+              fallback()
           end
       end, { 'i', 's' }),
 
