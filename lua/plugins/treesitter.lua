@@ -83,6 +83,7 @@ M.opts = {
     'make',
     'markdown',
     'markdown_inline',
+    'meson',
     'python',
     'rst',
     'rust',
