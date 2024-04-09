@@ -18,6 +18,10 @@ vim.keymap.set("n", "<c-n>", ":nohl<CR>")
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
 
+-- Quicklist navigation
+vim.keymap.set("n", "]q", ":cnext<CR>")
+vim.keymap.set("n", "[q", ":cprevious<CR>")
+
 -- Show textwidth indicator
 vim.keymap.set("n", "<F7>", ":ToggleShowWidth<CR>")
 
