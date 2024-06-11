@@ -24,6 +24,7 @@ utils.set_auto_tabshift {
   cmake = 2,
   cpp = 4, 
   go = 4,
+  just = 2,
 	lua = 2,
   python = 4, 
   rust = 4, 
