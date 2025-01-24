@@ -85,6 +85,7 @@ M.opts = {
     'markdown_inline',
     'meson',
     'python',
+    'robot',
     'rst',
     'rust',
     'ssh_config',
