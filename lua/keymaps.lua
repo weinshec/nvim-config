@@ -27,3 +27,7 @@ vim.keymap.set("n", "<F7>", ":ToggleShowWidth<CR>")
 
 -- Enable spell check
 vim.keymap.set("n", "<leader>s", ":set spell!<CR>")
+
+-- Switch between hex and normal mode
+vim.keymap.set("n", "<leader>hr",    ":%!xxd -g1<CR> :set filetype=xxd<CR>")
+vim.keymap.set("n", "<Leader>hw",    ":%!xxd -r<CR> :set binary<CR> :set filetype=<CR>")
